@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+ 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMWDE0VTD3');
+  </script>
+
+  <meta name="google-site-verification" content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000">
+  
+  <title>Shikha | Portfolio</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+ 
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+<body class="body">
+  <audio loop="" id="audioPlayer" style="display:none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3">
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+
+    <div class="cursor outer"></div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            <li class="home activeThistab" class="navbar-tabs-li " data-aos="fade-down" data-aos-delay="100">
+              Home</li>
+          </a>
+          <a href="#about" aria-label="about menu button">
+            <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">AboutMe</li>
+          </a>
+          <a href="#skills" aria-label="skills menu button">
+            <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">Skills</li>
+          </a>
+          <a href="#projects" aria-label="projects menu button">
+            <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">Projects
+            </li>
+          </a>
+
+        </ul>
+
+
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span></button>
+      </div>
+    </div>
+
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <a href="#home" tabindex="0" aria-label="Home menu button">
+          <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+            Home</li>
+        </a>
+        <a href="#about" tabindex="0" aria-label="about menu button">
+          <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">AboutMe
+          </li>
+        </a>
+        <a href="#skills" tabindex="0" aria-label="skills menu button">
+          <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">Skills</li>
+        </a>
+        <a href="#projects" tabindex="0" aria-label="projects menu button">
+          <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          Projects</li>
+        </a>
+
+      </ul>
+    </div>
+
+    <div class="fakenavbar"></div>
+    <section class="landing-page-container" id="home">
+
+
+
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">W</p>
+          <p class="jello">e</p>
+          <p class="jello">l</p>
+          <p class="jello">c</p>
+          <p class="jello">o </p>
+          <p class="jello">m</p>
+          <p class="jello">e </p>
+          <p class="jello"> </p>
+
+          <!-- <p class="jello">E</p>
+          <p class="jello">v</p>
+          <p class="jello">e</p>
+          <p class="jello">r</p>
+          <p class="jello">y</p>
+          <p class="jello">o</p>
+          <p class="jello">n</p>
+          <p class="jello">e</p> -->
+          
+          
+          </p>&nbsp;<p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">S</p>
+          <p class="jello">H</p>
+          <p class="jello">I</p>
+          <p class="jello">K</p>
+          <p class="jello">H</p>
+          <p class="jello">A</p>&nbsp;
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">I am a Computer Science student at Lovely Professional University, with experience in data pipelines, data visualization, and cloud-based AI systems. My expertise lies in integrating machine learning with cloud technologies to develop scalable, data-driven solutions utilizing AWS and deep learning. </p>
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <div class="button-container">
+              
+              
+              <a href="./src/SHIKHAGEN.pdf" tabindex="-1">
+                  <button class="letsTalkBtn">
+                      <p class="letsTalkBtn-text">Resume</p>
+                      <span class="letsTalkBtn-BG"></span>
+                  </button>
+              </a>
+          </div>
+      
+          <div class="setting-container" id="setting-container">
+              <input type="checkbox" id="switchforsetting" onclick="settingtoggle()">
+              <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+                  aria-label="settings for sound and appearance"></label>
+      
+              <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                  <input type="checkbox" id="switchforvisualmode" onclick="visualmode()">
+                  <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                      aria-label="switch appearance"></label>
+              </div>
+      
+              <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+                  <input type="checkbox" id="switchforsound" onclick="playpause()">
+                  <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                      class="needtobeinvert"></label>
+              </div>
+          </div>
+      </div>
+      
+    
+
+      </div>
+      
+    </section>
+    
+    
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <article class="section-heading-article" tabindex="0" aria-label="About me heading">About Me
+          </article>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">As an engineering student with a strong passion for coding and problem-solving, I thrive in collaborative environments. I aim to contribute to innovative projects in a dynamic organization, leveraging my skills to develop impactful solutions. With a commitment to continuous learning and staying current with industry trends, I strive to deliver excellence in every endeavor.</p>
+
+          </div>
+
+          <div class="dp" data-aos="fade-up"><img src="images/Shikha.jpg" alt="Shikha" tabindex="0"
+              aria-label="image of Shikha"></div>
+        </div>
+      </div>
+    </section>
+  
+
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <article class="section-heading-article" tabindex="0" aria-label="skills heading">Skills</article>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+
+          <div class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="As a frontend a developer these are the skills i have">Tech Stack</div>
+          <div class="tech-stack-wrapper">
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/htmllogo.png" alt="Html" class="tech-stack-logo">
+            </div>
+
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csslogo.png" alt="css" class="tech-stack-logo">
+            </div>
+            
+
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/jslogo.png" alt="js" class="tech-stack-logo">
+            </div>
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/Python-logo.png" alt="css" class="tech-stack-logo">
+            </div>
+
+
+
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/clogo.png" alt="js" class="tech-stack-logo">
+            </div>
+
+            
+
+          
+
+           
+
+            
+
+            <div class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/cpplogo.png" alt="c++ language" class="tech-stack-logo">
+            </div>
+          </div>
+         </div>
+         <div class="frontend-dev-section">
+
+          
+
+           
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <article class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            Projects</article>
+          <p class="sectionHeadingP"></p>
+        </div>
+       
+        <div class="project-boxes-div">
+
+          <a href="" target="_blank" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+    
+                <article class="ProjectHeading">Plant Disease</article>
+                <p class="ProjectDescription">
+                  Developed a cloud-integrated plant disease detection system using deep learning and AWS to automate leaf image analysis. By configuring Boto3-based AWS SDK integration, I enabled efficient communication with S3 for seamless data storage and retrieval. The system deploys an AI-powered diagnostic pipeline capable of detecting plant diseases and recommending treatment solutions in real-time. To enhance scalability and accessibility, I integrated cloud infrastructure with deep learning workflows. The project leveraged technologies such as Python, S3 Bucket, TensorFlow, CNN, Boto3, and Streamlit.</p>
+              
+              </div>
+              <div class="image-div"><img src="images/plant.jpg" alt=""></div>
+            </div>
+          </a>
+
+        </div>
+        <div class="project-boxes-div">
+
+          <a href="" target="_blank" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+               
+                <article class="ProjectHeading">Egg Boiler</article>
+                <p class="ProjectDescription">Created a mobile application that helps users determine optimal egg boiling times based on their preferences. The app features an intuitive and user-centric UI/UX designed using Figma, which led to a 95% user satisfaction rate. I implemented a rule-based timing algorithm that improved boiling accuracy by 25% compared to conventional methods. Additionally, I enhanced the app's overall reliability and user experience by incorporating feedback and insights gathered from users. The tech stack includes React Native, Figma, Firebase, and REST APIs.</p>
+                  
+
+  
+              </div>
+              <div class="image-div"><img src="images/egg.jpg" alt=""></div>
+            </div>
+          </a>
+
+        </div>
+         
+      </div>
+    </section>
+
+
+  </main>
+  <section class="projects-section-container" id="internships">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <article class="section-heading-article" tabindex="0" aria-label="My internships">Internships</article>
+        <p class="sectionHeadingP"></p>
+      </div>
+      <div class="project-boxes-div">
+        <div class="project-box project-box5" id="project-box5">
+          <div class="info-div">
+            <article class="ProjectHeading">Data Science Intern</article>
+            <p class="ProjectDescription">
+              May 2024 - Jul 2024<br>
+              During my data science internship, I engineered efficient data preprocessing pipelines for a Credit Card System, implementing advanced data cleaning, validation, and transformation techniques that improved processing efficiency by 30% and significantly enhanced model accuracy. I also processed and visualized global population datasets using Jupyter, Pandas, and Seaborn, while optimizing machine learning approaches to analyze over 500,000 financial transactions—contributing to improved fraud detection accuracy and more robust risk assessment models. 
+            </p>
+          </div>
+          <div class="image-div"><img src="images/internship.jpg" alt=""></div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects-section-container" id="projects">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <article class="section-heading-article" tabindex="0" aria-label="My Certifications starts from here">
+          Certification </article>
+        <p class="sectionHeadingP"></p>
+      </div>
+     
+      <div class="project-boxes-div">
+
+        <a href="" target="_blank" data-aos="fade-up">
+          <div class="project-box project-box5" id="project-box5">
+            <div class="info-div">
+  
+              <article class="ProjectHeading">Machine Learning</article>
+              <p class="ProjectDescription">The "Building Language on AWS" course is designed to teach developers how to build, deploy, and scale language-based applications using Amazon Web Services (AWS). This course focuses on leveraging AWS tools like Amazon Polly, Lex, Transcribe, and Comprehend, which are used for natural language processing (NLP), speech recognition, and text-to-speech capabilities. 
+                </p>
+               
+            </div>
+            <div class="image-div"><img src="images/awscertificate.jpeg" alt=""></div>
+          </div>
+        </a>
+
+      </div>
+      <div class="project-boxes-div">
+
+        <a href="" target="_blank" data-aos="fade-up">
+          <div class="project-box project-box5" id="project-box5">
+            <div class="info-div">
+             
+              <article class="ProjectHeading">Docker and Kubernetes</article>
+              <p class="ProjectDescription"> The "Introduction to Containers, Docker, Kubernetes, and OpenShift" course by IBM on Coursera provides a foundational understanding of containerization and container orchestration technologies. It covers the core concepts of containers, using Docker to package and deploy applications, and introduces Kubernetes as an open-source system for automating the deployment, scaling, and management of containerized applications. 
+              </p>
+            </div>
+            <div class="image-div"><img src="images/containerscertificate.jpeg" alt=""></div>
+          </div>
+        </a>
+
+      </div>
+      <div class="project-boxes-div">
+
+        <a href="" target="_blank" data-aos="fade-up">
+          <div class="project-box project-box5" id="project-box5">
+            <div class="info-div">
+             
+              <article class="ProjectHeading">Data Analytics Google</article>
+              <p class="ProjectDescription">The Google Data Analytics Professional Certificate on Coursera is a comprehensive, beginner-friendly program designed to equip learners with essential data analysis skills. Developed by Google, this course covers key topics such as data cleaning, analysis, visualization, and interpretation using tools like SQL, R, and Tableau
+              </p>
+            </div>
+            <div class="image-div"><img src="images/datanalytics.jpg" alt=""></div>
+          </div>
+        </a>
+
+      </div>
+       
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="projects-section-container" id="projects">
+    <div class="projects-section-div">
+      <div class="section-heading" data-aos="fade-up">
+        <article class="section-heading-article" tabindex="0" aria-label="My Achievements starts from here">
+          Achievements </article>
+        <p class="sectionHeadingP"></p>
+      </div>
+     
+      <div class="project-boxes-div">
+
+        <a href="" target="_blank" data-aos="fade-up">
+          <div class="project-box project-box5" id="project-box5">
+            <div class="info-div">
+  
+              <article class="ProjectHeading">Picture Perception</article>
+              <p class="ProjectDescription">Secured 2nd rank in the Seeing Beyond competition, focusing on picture perception, organized by                                                               Oct’24
+                the Professional Enhancement department.</p>
+               
+            </div>
+            <div class="image-div"><img src="images/pictureperception.jpg" alt=""></div>
+          </div>
+        </a>
+
+      </div>
+      <div class="project-boxes-div">
+
+        <a href="" target="_blank" data-aos="fade-up">
+          <div class="project-box project-box5" id="project-box5">
+            <div class="info-div">
+             
+              <article class="ProjectHeading">Research Paper</article>
+              <p class="ProjectDescription"> Published a research paper evaluating the performance of crypto liquidity pools, highlighting trends in yield, volatility, and risk. Provided actionable insights into DeFi investment strategies and pool optimization.
+              </p>
+            </div>
+            <div class="image-div"><img src="images/researchpaper.jpg" alt=""></div>
+          </div>
+        </a>
+
+      </div>
+       
+    </div>
+  </section>
+
+
+
+  <footer>
+
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footercontainer">
+      <div class="two-words">
+      
+      </div>
+      <div class="social-media-container">
+        <div class="getintouch-heading">
+          <article>Let's Connect</article>
+        </div>
+        <div class="logos">
+         
+
+
+          <a href="https://www.linkedin.com/in/shikha-gitasingh/" target="_blank"
+            aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+              <path
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+            </svg></a>
+
+
+          <a href="https://github.com/Shikha0219" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
+              class="SocialHandle">
+              <path
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+            </svg></a>
+
+
+          <a href="mailto:shikhabmsingh19@gmail.com" target="_blank" aria-label="My Gmail"> <svg id="GmailLogo" viewBox="0 0 512 512" style="cursor: pointer;">
+            <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
+          </svg></a>
+           
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <article>Design & Built by Shikha<i class="far fa-copyright"></i> twentytwentyfive</article>
+      </div>
+    </div>
+
+  </footer>
+ 
+
+</body>
+
+<script src="main.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+<script>
+  const cursor = document.querySelector(".cursor");
+  const links = document.querySelectorAll("a,label,button");
+
+  window.addEventListener("mousemove", (e) => {
+
+    let x = e.pageX;
+    let y = e.pageY;
+
+
+    cursor.style.left = `${x}px`;
+    cursor.style.top = `${y}px`;
+
+    links.forEach(link => {
+      link.addEventListener("mouseenter", () => {
+        cursor.classList.add("hover");
+      })
+      link.addEventListener("mouseleave", () => {
+        cursor.classList.remove("hover");
+      })
+    })
+
+
+
+  })
+</script>
+
+</html>
